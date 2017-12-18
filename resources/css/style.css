@@ -36,6 +36,8 @@ body {
 .main-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mission {
@@ -51,10 +53,34 @@ body {
 .mission-content {
   text-align: center;
   background-color: black;
-  width: 1200px;
+  width: 100%;
 
+}
 
+/*--          tea container           */
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
 
+.product-container-title {
+  text-align: center;
+}
 
+.product-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
 
+.product img {
+  height: 200px;
+  width: 300px;
+}
+
+.product {
+  padding: 10px 10px;
 }
