@@ -1,4 +1,6 @@
-
+div {
+  border: 3px solid white;
+}
 body {
   background-color: black;
   font-family: Helvetica;
@@ -57,7 +59,7 @@ body {
 
 }
 
-/*--          tea container           */
+/*--          tea container           --*/
 .product-container {
   display: flex;
   flex-direction: column;
@@ -74,6 +76,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+
 }
 
 .product img {
@@ -82,5 +85,33 @@ body {
 }
 
 .product {
-  padding: 10px 10px;
+  margin: 10px 10px;
 }
+
+
+/*--          locations           --*/
+.locations-container {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/locations-background.jpg");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.locator {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  text-align: center;
+  opacity: 1;
+}
+
+/*--          footer          --*/
